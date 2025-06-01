@@ -74,7 +74,7 @@ module test;
         // // expected ~(101^011) = 11111110 (FEH)
         // #10;
 
-        //subtraction (16 - 3)
+        //subtraction (8 - 3)
         /*
             mov a,3    # num1 = 3
             swap
