@@ -1,0 +1,95 @@
+$date
+	Thu May 29 17:49:38 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module test $end
+$var wire 1 ! clk $end
+$var wire 5 " sum [4:0] $end
+$var reg 4 # a [3:0] $end
+$var reg 4 $ b [3:0] $end
+$scope module clk_gen $end
+$var reg 1 % clk $end
+$upscope $end
+$scope module adder $end
+$var wire 4 & a [3:0] $end
+$var wire 4 ' b [3:0] $end
+$var wire 5 ( sum [4:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 (
+b0 '
+b0 &
+0%
+b0 $
+b0 #
+b0 "
+0!
+$end
+#10
+b1 $
+b1 '
+b1 #
+b1 &
+b10 "
+b10 (
+1%
+1!
+#20
+0%
+0!
+#30
+b10 $
+b10 '
+b10 #
+b10 &
+b100 "
+b100 (
+1%
+1!
+#40
+0%
+0!
+#50
+b11 $
+b11 '
+b11 #
+b11 &
+b110 "
+b110 (
+1%
+1!
+#60
+0%
+0!
+#70
+b100 $
+b100 '
+b100 #
+b100 &
+b1000 "
+b1000 (
+1%
+1!
+#80
+0%
+0!
+#90
+b101 $
+b101 '
+b101 #
+b101 &
+b1010 "
+b1010 (
+1%
+1!
+#100
+0%
+0!
